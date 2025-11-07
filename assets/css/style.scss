@@ -2,3 +2,26 @@
 ---
 
 @import "jekyll-theme-midnight";
+
+/* Override button colors */
+#header nav ul li a {
+    color: white;
+    border: 1px solid #ab2d2d !important;  /* Changed from #ab9a2d */
+    background: linear-gradient(#ff6b6b, #ee5252) !important;  /* Changed from yellow */
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,0.3), 0px 3px 7px rgba(0,0,0,0.7);
+    background-color: #ff6b6b !important;  /* Changed from #ffe778 */
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
+#header nav ul li a:hover {
+    background: linear-gradient(#ff6b6b, #dd4242) !important;  /* Changed from yellow */
+    background-color: #ff6b6b !important;  /* Changed from #ffe778 */
+    border: 1px solid #ff0000 !important;  /* Changed from #ffcc00 */
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.2), 0px 1px 0px transparent;
+}
